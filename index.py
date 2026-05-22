@@ -12,10 +12,12 @@ class SmartDevice:
         status = "ON" if self.is_on else "OFF"
         print(f"{self.name} is now {status}.")
 
-    def get_status(self):
-        """Returns a string describing the current state."""
-        status = "running" if self.is_on else "idle"
-        return f"Status: {self.name} is currently {status}."
+    def new_test_local(self):
+        print('this if for testing merge conflict local changes')
+  
+    def newtest_2(self):
+        print('this is from github already some other developer added and psuhed this code in developement branch')
+
 
     def reset(self):
         """Resets the device to its default state."""
