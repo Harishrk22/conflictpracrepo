@@ -23,6 +23,9 @@ class SmartDevice:
         """Resets the device to its default state."""
         self.is_on = False
         print(f"{self.name} has been reset.")
+        
+    def clear(self):
+        print('clear btn ')
 
 # --- Using the class ---
 if __name__ == "__main__":
