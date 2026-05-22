@@ -18,7 +18,8 @@ class SmartDevice:
     def newtest_2(self):
         print('this is from github already some other developer added and psuhed this code in developement branch')
 
-
+    def validate(self):
+        print("validate btn added")
     def reset(self):
         """Resets the device to its default state."""
         self.is_on = False
